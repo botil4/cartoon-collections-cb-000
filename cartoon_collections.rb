@@ -7,7 +7,6 @@ end
 def summon_captain_planet(planeteer_calls)
   planeteer_calls.map do |call|
     array = call.split('')
-    binding.pry
     array.first.upcase
     "#{array.join}!"
   end
